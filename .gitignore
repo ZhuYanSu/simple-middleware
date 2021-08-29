@@ -1,3 +1,5 @@
-simple-middleware/bin/
-simple-middleware/obj/
-simple-middleware/.vs/
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+!**/xUnitTestProject/TestResults/
