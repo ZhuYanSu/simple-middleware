@@ -1,0 +1,298 @@
+{
+  "simple-middleware-net5.dll": {
+    "C:\\Users\\user\\source\\repos\\simple_middleware_implementation\\simple-middleware-net5\\simple-middleware-net5\\Pipe.cs": {
+      "simple_middleware.Pipe": {
+        "System.Void simple_middleware.Pipe::.ctor(System.Action`1<System.String>)": {
+          "Lines": {
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\simple_middleware_implementation\\simple-middleware-net5\\simple-middleware-net5\\PipeBuilder.cs": {
+      "simple_middleware.PipeBuilder": {
+        "simple_middleware.PipeBuilder simple_middleware.PipeBuilder::AddPipe(System.Type)": {
+          "Lines": {
+            "20": 4,
+            "22": 7,
+            "23": 3,
+            "24": 3,
+            "26": 4,
+            "27": 4
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 22,
+              "Offset": 19,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Action`1<System.String> simple_middleware.PipeBuilder::CreatePipeline()": {
+          "Lines": {
+            "30": 5,
+            "31": 5,
+            "32": 11,
+            "34": 2,
+            "35": 6,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 2,
+            "42": 5
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 32,
+              "Offset": 19,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 35,
+              "Offset": 152,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Action`1<System.String> simple_middleware.PipeBuilder::CreatePipelineRecursive(System.Int32)": {
+          "Lines": {
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 17,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 50,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Action`1<System.String> simple_middleware.PipeBuilder::Build()": {
+          "Lines": {
+            "66": 5,
+            "67": 5,
+            "68": 5
+          },
+          "Branches": []
+        },
+        "System.Action`1<System.String> simple_middleware.PipeBuilder::BuildRecursive()": {
+          "Lines": {
+            "71": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.Void simple_middleware.PipeBuilder::Dispose(System.Boolean)": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 18,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 12,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void simple_middleware.PipeBuilder::Dispose()": {
+          "Lines": {
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0
+          },
+          "Branches": []
+        },
+        "System.Void simple_middleware.PipeBuilder::.ctor(System.Action`1<System.String>)": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5,
+            "17": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\simple_middleware_implementation\\simple-middleware-net5\\simple-middleware-net5\\Program.cs": {
+      "simple_middleware.Program": {
+        "System.Void simple_middleware.Program::Main(System.String[])": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\simple_middleware_implementation\\simple-middleware-net5\\simple-middleware-net5\\Try.cs": {
+      "simple_middleware.Try": {
+        "System.Void simple_middleware.Try::Handle(System.String)": {
+          "Lines": {
+            "13": 2,
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 2
+          },
+          "Branches": []
+        },
+        "System.Void simple_middleware.Try::.ctor(System.Action`1<System.String>)": {
+          "Lines": {
+            "7": 2,
+            "8": 2,
+            "10": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\simple_middleware_implementation\\simple-middleware-net5\\simple-middleware-net5\\Wrap.cs": {
+      "simple_middleware.Wrap": {
+        "System.Void simple_middleware.Wrap::Handle(System.String)": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.Void simple_middleware.Wrap::.ctor(System.Action`1<System.String>)": {
+          "Lines": {
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
