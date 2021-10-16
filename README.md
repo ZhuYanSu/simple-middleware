@@ -99,6 +99,17 @@
     - 2nd cycle: collect objects
     - We can improve it by suppressing destructor if `Dispose` method was called
 
+- sonarqube
+    - install
+        ```shell=
+        dotnet tool install --global dotnet-sonarscanner
+        ```
+    - scan
+        ```shell=
+        dotnet sonarscanner begin /k:"test" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="login_token"
+        dotnet build
+        dotnet sonarscanner end /d:sonar.login="login_token"
+        ```
 
 ## Reference
 
