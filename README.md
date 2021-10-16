@@ -106,3 +106,4 @@
 - [IDisposable Design Pattern (.Net Core)](https://www.youtube.com/watch?v=9lmDphUMVsg)
 - [Docker 教學 - .NET Core 測試報告 (Coverlet + ReportGenerator)](https://blog.johnwu.cc/article/docker-dotnet-coverage-report-generator.html)
 - [xUnit issues - Add support for parametrixed test fixtures](https://github.com/xunit/xunit/issues/352#issuecomment-368135733)
+- [mocking-system-console-behaviour](https://stackoverflow.com/questions/5852862/mocking-system-console-behaviour)
