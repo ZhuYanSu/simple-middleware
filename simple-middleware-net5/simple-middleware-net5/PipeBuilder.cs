@@ -6,8 +6,8 @@ namespace simple_middleware
     
     internal class PipeBuilder: IDisposable
     {
-        private List<Type> _pipeTypes;
-        private Action<string> _mainAction;
+        private readonly List<Type> _pipeTypes;
+        private readonly Action<string> _mainAction;
         private bool disposedValue;
 
         public PipeBuilder(Action<string> mainAction)

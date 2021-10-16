@@ -3,3 +3,7 @@
 **/.vs/
 **/TestResults/
 !**/xUnitTestProject/TestResults/
+simple-middleware-net5/.sonarlint/**/*.*
+simple-middleware-net5/.sonarqube/**/*.*
+!simple-middleware-net5/.sonarlint/testcsharp.ruleset
+!simple-middleware-net5/.sonarlint/test/CSharp/SonarLint.xml

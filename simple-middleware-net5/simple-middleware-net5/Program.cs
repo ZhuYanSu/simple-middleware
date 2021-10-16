@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
 namespace simple_middleware
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {

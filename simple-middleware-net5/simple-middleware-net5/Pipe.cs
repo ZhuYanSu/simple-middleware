@@ -6,7 +6,7 @@ namespace simple_middleware
     {
         // action should be accessed by inherited classes
         protected Action<string> _action;
-        public Pipe(Action<string> action)
+        protected Pipe(Action<string> action)
         {
             this._action = action;
         }

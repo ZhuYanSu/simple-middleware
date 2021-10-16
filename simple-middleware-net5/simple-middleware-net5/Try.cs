@@ -18,6 +18,7 @@ namespace simple_middleware
             }
             catch (Exception ex)
             {
+                // do nothing
             }
         }
     }
